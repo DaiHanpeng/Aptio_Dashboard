@@ -5,6 +5,7 @@ import sys
 import zipfile
 import os
 import re
+import ConfigParser
 
 # function to insert dms tables from backup sql file to temporary dms db
  
@@ -13,6 +14,7 @@ def insertdmstable(dmstable,dmssqlfilepath,mycursor):
     linenum=0
     line_start=0
     line_end=0
+    flag_delimiter=0
     for line in open(dmssqlfilepath):
         linenum=linenum+1
         if re.search('-- Table structure for table `'+dmstable+'`', line):
@@ -25,48 +27,69 @@ def insertdmstable(dmstable,dmssqlfilepath,mycursor):
         if  line_start!=0 and line_end==0:
             if re.match(r'--', line):  # ignore sql comment lines
                 continue
-            if not re.search(r";", line):  # keep appending lines that don't end in ';'
-                statement = statement + line
-            else:  # when you get a line ending in ';' then exec statement and reset for next statement
-                statement = statement + line
-                try:
-                    mycursor.execute(statement)
-                    #print(statement)
-                except Exception as e:
-                    print (e)
-                    print("affected line of dms sql file is: ", linenum)
-                    print(statement)
-                    exit()
-                statement = ""    
+            if re.match(r'DELIMITER ;', line):  # ignore sql DELIMITER statement and enable the flag_delimiter
+                flag_delimiter=0                
+                if re.match(r'DELIMITER ;;', line):  # ignore sql DELIMITER statement and enable the flag_delimiter
+                    flag_delimiter=1
+                continue
+            if flag_delimiter==1:
+                if not re.search(r";;", line):  # keep appending lines that don't end in ';'
+                    statement = statement + line
+                else:  # when you get a line ending in ';' then exec statement and reset for next statement
+                    statement = statement + line
+                    try:
+                        mycursor.execute(statement)
+                        #print(statement)
+                    except Exception as e:
+                        print (e)
+                        print("affected line of dms sql file is: ", linenum)
+                        print(statement)
+                        print(flag_delimiter)
+                        exit()
+                    statement = ""                
+            else:
+                if not re.search(r";", line):  # keep appending lines that don't end in ';'
+                    statement = statement + line
+                else:  # when you get a line ending in ';' then exec statement and reset for next statement
+                    statement = statement + line
+                    try:
+                        mycursor.execute(statement)
+                        #print(statement)
+                    except Exception as e:
+                        print (e)
+                        print("affected line of dms sql file is: ", linenum)
+                        print(statement)
+                        print(flag_delimiter)
+                        exit()
+                    statement = ""    
     print('Table '+dmstable+' processed')
-
 
 
 def main():
 
-    ############## SCRIPT PATAMETERS #############
-    mysqlhostip="localhost"
-    mysqluser="root"
-    mysqlpw="lINEA_3"
-    dmsbackuppw="L@inea-3"
-    dashboarddb="../Aptio_Dashboard/03_database/aptio_dashboard.sql"
-    unzipfolder="tmp/"
-    realdashboarddb="dashboardtemp2"
-    
+    ############## READ CONFIGURATION INI FILE #############
+    Config = ConfigParser.ConfigParser()
+    Config.read("dashconf.ini")
+    options = Config.options('Default')
+    dict1={}
+    for option in options:
+        temp = option
+        globals()[temp] = str(Config.get('Default', option))
+
     ############## CHECK SCRIPT ARGUMENTS ###############
-    if (len(sys.argv) != 4):
-        print("Arguments should be 3: 1*the full path of the file to process; 2*result status table; 3*id of the hospital DB --> Exit")
+    if (len(sys.argv) != 3):
+        print("Arguments should be 2: 1*the full path of the file to process; 2*id of the hospital DB --> Exit")
         sys.exit(0)
     
     print("This is the name of the file to process: ", sys.argv[1])
-    print("This is the result status table: ", sys.argv[2])
-    print("This is the id of the hospital: " , sys.argv[3])
+    print("This is the id of the hospital: " , sys.argv[2])
     
     zipfilepath=sys.argv[1]
-    tablefieldcomplete=sys.argv[2]
-    dbid=sys.argv[3]
-    
-    
+    if not os.path.exists(zipfilepath):
+        print('The backup up in arguments doesn\'t exists! Exit.. ')
+        sys.exit(0)
+    realdashboarddb=sys.argv[2]
+
     ############## OPEN DMS BACKUP FILE ##########
     with zipfile.ZipFile(zipfilepath) as zf:
         zf.extractall(pwd=dmsbackuppw)
@@ -84,7 +107,6 @@ def main():
     flagconsistent=cur.fetchone()
     
     if flagconsistent!=None:
-        #print(flagconsistent)
         flagconsistent=int(flagconsistent[0])
     else:
         flagconsistent=0
@@ -187,11 +209,34 @@ def main():
                 print "\n[WARN] MySQLError during execute statement \n\tArgs: '%s'" % (str(e.args))
    
     # insert anagpatient, anagpatient_details, reqtest, orders, reqtestresult, testinstrument and reqtube into the dms temporary database;
-    dmstables=['anagpatient', 'anagpatient_details', 'reqtest', 'orders', 'reqtestresult', 'testinstrument', 'reqtube','eventautomation']
+    dmstables=['anagpatient', 'anagpatient_details', 'reqtest', 'orders', 'reqtestresult', 'testinstrument', 'reqtube','eventautomation','instrument','testlab']
     
     for i in dmstables:
         insertdmstable(i,unzipfolder+file[0],cur)
-
+    
+    # number of entries in the dms temp database
+    cur.execute("""select count(*) from `dmstemp`.`anagpatient`;""")
+    numpatientdmsbackup=int(cur.fetchone()[0])
+    print("number of patient records in dms backup file: " + str(numpatientdmsbackup))
+    cur.execute("""select count(*) from `dmstemp`.`reqtube`;""")
+    numsampledmsbackup=int(cur.fetchone()[0])
+    print("number of sample records in dms backup file: " + str(numsampledmsbackup))
+    #select count(*) from reqtest as a inner join testlab as b on a.codtest=b.codtest where b.codresult="A" and b.codparameter=1;
+    cur.execute("""select count(*) from `dmstemp`.`reqtest` as a inner join `dmstemp`.`testlab` as b on a.`codtest`=b.`codtest` where b.`codresult`="A" and b.`codparameter`=1;""")
+    numreqtestdmsbackup=int(cur.fetchone()[0])
+    print("number of requested test records in dms backup file: " + str(numreqtestdmsbackup))    
+    cur.execute("""select count(*) from `dmstemp`.`reqtestresult` as a inner join `dmstemp`.`testlab` as b on a.`codtest`=b.`codtest` where b.`codresult`="A" and b.`codparameter`=1;""")
+    numresultdmsbackup=int(cur.fetchone()[0])
+    print("number of result records in dms backup file: " + str(numresultdmsbackup))    
+    #select count(*) from reqtestresult where jsnflaginstrument!="[]" and jsnflaginstrument!="";
+    cur.execute("""select count(*) from `dmstemp`.`reqtestresult` where `jsnflaginstrument`!="[]" and `jsnflaginstrument`!="";""")
+    numflagdmsbackup=int(cur.fetchone()[0])
+    print("number of dms flag records in dms backup file: " + str(numflagdmsbackup))    
+    #select count(*) from testinstrument where codiid='INPECO'
+    cur.execute("""select count(*) from `dmstemp`.`testinstrument` where `codiid`='INPECO';""")
+    numtestsdmsbackup=int(cur.fetchone()[0])
+    print("number of tests records in dms backup file: " + str(numtestsdmsbackup))    
+    
     ############### INSERT data in temporary dashboard DB ##################
     
     print("transmitting data from temporary DMS database to temporary Dashboard database... ")
@@ -212,18 +257,15 @@ def main():
         
     #dms_requested_test
     try:
-        cur.execute("""insert ignore into `dashboardtemp`.`dms_requested_tests` (`sid`,`test_name`,`create_datetime`,`action_code`) select a.`codsid`,a.`codtest`,b.`datorder`,a.`codactioncode` from `dmstemp`.`reqtest` as a inner join `dmstemp`.`orders` as b on a.`codoid`=b.`codoid`""")
+        cur.execute("""insert ignore into `dashboardtemp`.`dms_requested_tests` (`sid`,`test_name`,`create_datetime`,`action_code`) select a.`codsid`,a.`codtest`,b.`datorder`,a.`codactioncode` from `dmstemp`.`reqtest` as a inner join `dmstemp`.`orders` as b on a.`codoid`=b.`codoid` inner join `dmstemp`.`testlab` as c on a.`codtest`=c.`codtest` where c.`codresult`="A" and c.`codparameter`=1; """)
         db.commit()
     except Exception as e:
         print()
-        
+     
     #dms_result
     try:
         cur.execute("""alter table dashboardtemp.dms_result add flagvalue text;""")
-        #version without TAT
-        #cur.execute("""insert ignore into `dashboardtemp`.`dms_result` (`sid`,`instrument_id`,`test_name`,`time_stamp`,`dilution_factor`,`result`,`aspect`,`flagged`,`flagvalue`,`auto_val_result`) select a.`codsid`,a.`codinstrument`,a.`codtest`,a.`datresult`,a.`valdilution`,a.`valresult1`,b.`validentifier1`,IF(a.`jsnflaginstrument`!="[]",1,0),a.`jsnflaginstrument`,a.`flgvalid` from `dmstemp`.`reqtestresult` as a inner join `dmstemp`.`testinstrument` as b on a.`codtest`=b.`codtest` where b.`codiid`!='HOSTASTMmCH' and b.`codiid`!='INPECO'""")
-        #version with TAT
-        cur.execute("""insert ignore into `dashboardtemp`.`dms_result` (`sid`,`instrument_id`,`test_name`,`time_stamp`,`dilution_factor`,`result`,`aspect`,`flagged`,`flagvalue`,`auto_val_result`,`tat_inlabbing_result`)  select a.`codsid`,a.`codinstrument`,a.`codtest`,a.`datresult`,a.`valdilution`,a.`valresult1`,b.`validentifier1`,IF(a.`jsnflaginstrument`!="[]",1,0),a.`jsnflaginstrument`,a.`flgvalid`,c.`tat` from `dmstemp`.`reqtestresult` as a inner join `dmstemp`.`testinstrument` as b on a.`codtest`=b.`codtest` inner join (select d.codsid,d.codtest,timediff(d.datresult,e.datcheckin) as tat from `dmstemp`.`reqtestresult` as d inner join (select codinstrument,min(datevent) as datcheckin,txtevent,codsid from `dmstemp`.`eventautomation` where txtevent='L001' group by codsid) as e on d.codsid=e.codsid) as c on a.`codsid`=c.`codsid` and a.`codtest`=c.`codtest` where b.`codiid`!='HOSTASTMmCH' and b.`codiid`!='INPECO';""")
+        cur.execute("""insert ignore into `dashboardtemp`.`dms_result` (`sid`,`instrument_id`,`test_name`,`time_stamp`,`dilution_factor`,`result`,`aspect`,`flagged`,`flagvalue`,`auto_val_result`,`tat_inlabbing_result`)  select a.`codsid`,a.`codinstrument`,a.`codtest`,a.`datresult`,a.`valdilution`,a.`valresult1`,b.`validentifier1`,IF(a.`jsnflaginstrument`!="[]",1,0),a.`jsnflaginstrument`,a.`flgvalid`,timediff(a.`datresult`,c.`datcheckin`) from `dmstemp`.`reqtestresult` as a left join `dmstemp`.`testinstrument` as b on a.`codtest`=b.`codtest` left join (select `codsid`,`codinstrument`,min(`datevent`) as `datcheckin` from `dmstemp`.`eventautomation` where `txtevent`='L001' group by `codsid`) as c on a.`codsid`=c.`codsid` inner join `dmstemp`.`instrument` as d on b.`codiid`=d.`codiid` and a.`codinstrument`=d.`codinstrument` where b.`codiid`!='HOSTASTMmCH' and b.`codiid`!='INPECO' and b.`codparameter`=1;""")
         db.commit()
     except Exception as e:
         print()
@@ -284,6 +326,53 @@ def main():
     numnewtests=int(cur.fetchone()[0])
     print("number of dms tests records to insert in production dashboard database: " + str(numnewtests))       
     
+    ############## COMPARE RECORDS WITHIN DMS BACKUP WITH RECORDS WITHIN DASHBOARD TEMP --> IF NOT THE SAME SOME THERE IS SOME CONFIGURATION  PROBLEM IN THE SITE's DMS. ASK TO USER HOW TO PROCEED ##################
+    errorflag=0
+    if numpatientdmsbackup==numnewpatient:
+        print("patient records to be inserted are consistent with the backup")
+    else:
+        print("patient records to be inserted are NOT consistent with the backup")
+        errorflag=1   
+    if numsampledmsbackup==numnewsample:
+        print("sample records to be inserted are consistent with the backup")
+    else:
+        print("sample records to be inserted are NOT consistent with the backup")
+        errorflag=1
+    if numreqtestdmsbackup==numnewreqtest:
+        print("requested test records to be inserted are consistent with the backup")
+    else:
+        print("requested test records to be inserted are NOT consistent with the backup")
+        errorflag=1
+    if numresultdmsbackup==numnewresult:
+        print("result records to be inserted are consistent with the backup")
+    else:
+        print("result records to be inserted are NOT consistent with the backup")    
+        errorflag=1 
+    if numflagdmsbackup==numnewflag:
+        print("flag records to be inserted are consistent with the backup")
+    else:
+        print("flag records to be inserted are NOT consistent with the backup")
+        errorflag=1
+    if numtestsdmsbackup==numnewtests:
+        print("test records to be inserted are consistent with the backup")
+    else:
+        print("test records to be inserted are NOT consistent with the backup")
+        errorflag=1
+    if errorflag==1:
+        print("According to my analisys there is some mismatch between the data in the dms backup and the data that I am going to insert. This is most likely due to a DMS configuration error. If you think that the wrong records are few enough to not impact the statistics you can continue. Do you want to continue? [Y/N] : ")
+        while True:
+            answer = raw_input()
+            if answer.strip() == 'Y' or 'N':
+                break        
+        if answer == 'N':
+            os.remove(unzipfolder+file[0])
+            print('unzipped file removed') 
+            cur.execute("drop database dashboardtemp")
+            cur.execute("drop database dmstemp")
+            print('Temporary database removed')        
+            db.close()
+            sys.exit(0)
+           
     ############## INSERT NEW LINE IN DMS_UPLOAD_LOG ############
     print("Inserting new log line in production database...")
     cur.execute("""insert ignore into `"""+ realdashboarddb +"""`.`dms_upload_log` (`filename`,`npatient`,`nsample`,`nreqtest`,`nresult`,`nflag`,`ntests`,`uploaderror`) values ('"""+str(zipfilepath)+"""',"""+str(numnewpatient)+""","""+str(numnewsample)+""","""+str(numnewreqtest)+""","""+str(numnewresult)+""","""+str(numnewflag)+""","""+str(numnewtests)+""","""+str(1)+""");""")
@@ -446,11 +535,11 @@ def main():
      
     
     ############## CANCEL DMS UNZIPPED FILE, TEMPORARY DASHBOARD DB AND TEMPORARY DMS DB ##############
-    # os.remove(unzipfolder+file[0])
-    # print('unzipped file removed') 
-    # cur.execute("drop database dashboardtemp")
-    # cur.execute("drop database dmstemp")
-    # print('Temporary database removed')    
+    os.remove(unzipfolder+file[0])
+    print('unzipped file removed') 
+    cur.execute("drop database dashboardtemp")
+    cur.execute("drop database dmstemp")
+    print('Temporary database removed')    
     
     
     ############## CLOSE DB CONNECTION
