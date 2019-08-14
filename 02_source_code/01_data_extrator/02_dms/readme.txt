@@ -7,6 +7,7 @@ prerequisites:
 	sudo apt-get install python-mysqldb
 	pip install MySQL-python
 	pip install zipfile36
+	pip install configparser
 	install mysql-server and configured it:
 		
 		run: sudo apt update
@@ -63,6 +64,6 @@ TODO
 	
 	
 TO RUN THE SCRIPT:
-- change the "SCRIPT PARAMETERS" section inside the py file according to needs.
-- keep the file "Aptio_Dashboard/03_database/aptio_dashboard.sql" as it is right now. It is
-	used to create a temporary dashboard database at every run
+- change the parameters inside "dashconf.ini" file according to needs.
+- keep the files "aptio_temp_dashboard.sql" and "dashconf.ini" in the same folder of the script.
+- run the script with two arguments: the first is the path and the name of the dms backup file to uplaod, the second is the name of the production database for the specific customer/hospital/lab
