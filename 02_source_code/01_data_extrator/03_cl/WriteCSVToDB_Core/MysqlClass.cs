@@ -217,7 +217,11 @@ namespace WriteCSVToDB_Core
                     {
                         Logging.WriteLog("SQLERROR", e.Message + "\r\n");
                     }
-
+                    if (MSC!=null)
+                    {
+                        MSC.Close();
+                        MSC = null;
+                    }
                     trycycle++;
                     if (trycycle > 10)
                     {

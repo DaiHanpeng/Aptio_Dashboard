@@ -133,13 +133,13 @@ namespace WriteCSVToDB_Core
         public static void LogStop(int schedulerstoptime = 0)
         {
             Thread.Sleep(schedulerstoptime);
-            ThreadStop = false;
+            ThreadStop = true;
         }
 
         public static void LoggingThread()
         {
 
-            while (ThreadStop)
+            while (!ThreadStop)
             {
                 try
                 {

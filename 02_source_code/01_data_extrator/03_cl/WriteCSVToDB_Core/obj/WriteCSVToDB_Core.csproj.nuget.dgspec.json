@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\houyu\\Source\\Repos\\DashBoardFromCentralink\\WriteCSVToDB_Core\\WriteCSVToDB_Core.csproj": {}
+    "C:\\Users\\houyu\\Source\\Repos\\DaiHanpeng\\Aptio_Dashboard\\02_source_code\\01_data_extrator\\03_cl\\WriteCSVToDB_Core\\WriteCSVToDB_Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\houyu\\Source\\Repos\\DashBoardFromCentralink\\WriteCSVToDB_Core\\WriteCSVToDB_Core.csproj": {
+    "C:\\Users\\houyu\\Source\\Repos\\DaiHanpeng\\Aptio_Dashboard\\02_source_code\\01_data_extrator\\03_cl\\WriteCSVToDB_Core\\WriteCSVToDB_Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\houyu\\Source\\Repos\\DashBoardFromCentralink\\WriteCSVToDB_Core\\WriteCSVToDB_Core.csproj",
+        "projectUniqueName": "C:\\Users\\houyu\\Source\\Repos\\DaiHanpeng\\Aptio_Dashboard\\02_source_code\\01_data_extrator\\03_cl\\WriteCSVToDB_Core\\WriteCSVToDB_Core.csproj",
         "projectName": "WriteCSVToDB_Core",
-        "projectPath": "C:\\Users\\houyu\\Source\\Repos\\DashBoardFromCentralink\\WriteCSVToDB_Core\\WriteCSVToDB_Core.csproj",
+        "projectPath": "C:\\Users\\houyu\\Source\\Repos\\DaiHanpeng\\Aptio_Dashboard\\02_source_code\\01_data_extrator\\03_cl\\WriteCSVToDB_Core\\WriteCSVToDB_Core.csproj",
         "packagesPath": "C:\\Users\\houyu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\houyu\\Source\\Repos\\DashBoardFromCentralink\\WriteCSVToDB_Core\\obj\\",
+        "outputPath": "C:\\Users\\houyu\\Source\\Repos\\DaiHanpeng\\Aptio_Dashboard\\02_source_code\\01_data_extrator\\03_cl\\WriteCSVToDB_Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

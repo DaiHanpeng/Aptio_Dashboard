@@ -14,7 +14,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\bin\Debug\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.runtimeconfig.json" target="lib\netcoreapp2.2\WriteCSVToDB_Core.runtimeconfig.json" />
-    <file src="C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\bin\Debug\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.dll" target="lib\netcoreapp2.2\WriteCSVToDB_Core.dll" />
+    <file src="C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\WriteCSVToDB_Core\bin\Debug\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.runtimeconfig.json" target="lib\netcoreapp2.2\WriteCSVToDB_Core.runtimeconfig.json" />
+    <file src="C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\WriteCSVToDB_Core\bin\Debug\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.dll" target="lib\netcoreapp2.2\WriteCSVToDB_Core.dll" />
   </files>
 </package>

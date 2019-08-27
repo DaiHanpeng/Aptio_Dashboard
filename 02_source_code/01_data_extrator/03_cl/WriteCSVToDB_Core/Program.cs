@@ -100,7 +100,8 @@ namespace WriteCSVToDB_Core
             {
                 Logging.LogStop();
             }
-            
+            Logging.LogStop();
+
         }
 
         static void MakeThread()
