@@ -1,0 +1,11 @@
+CodingSystem.Name,Test.Name,InboundValue,OutboundValue,SampleType.Name,CaseSensitive
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Application: CENTRALINK
+%% Version: 16.0.3
+%% Table: TestCode
+%% Exported on: 08/09/19 at 19:54:29
+%% Exported by: batch
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Immuno 1,AFP,48,48,?,no

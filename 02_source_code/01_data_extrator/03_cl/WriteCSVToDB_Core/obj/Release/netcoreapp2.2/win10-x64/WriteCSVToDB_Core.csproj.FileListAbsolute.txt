@@ -1,0 +1,14 @@
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\bin\Release\netcoreapp2.2\win10-x64\hostpolicy.dll
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\bin\Release\netcoreapp2.2\win10-x64\hostfxr.dll
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\bin\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.exe
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\bin\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.dll.config
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\bin\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.deps.json
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\bin\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.runtimeconfig.json
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\bin\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.runtimeconfig.dev.json
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\bin\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.dll
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\bin\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.pdb
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\obj\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.csproj.CoreCompileInputs.cache
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\obj\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.AssemblyInfoInputs.cache
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\obj\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.AssemblyInfo.cs
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\obj\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.dll
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\WriteCSVToDB_Core\obj\Release\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.pdb

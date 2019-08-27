@@ -1,0 +1,25 @@
+Test.Name,Code,Expansion,Severity
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Application: CENTRALINK
+%% Version: 16.0.3
+%% Table: ResultChoice
+%% Exported on: 08/09/19 at 19:53:56
+%% Exported by: batch
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Hemo,-,-,0
+Hemo,+,+,1
+Hemo,++,++,2
+Hemo,+++,+++,3
+Hemo,++++,++++,3
+Icte,-,-,0
+Icte,+,+,1
+Icte,++,++,2
+Icte,+++,+++,3
+Icte,++++,++++,3
+Lipe,-,-,0
+Lipe,+,+,1
+Lipe,++,++,2
+Lipe,+++,+++,3
+Lipe,++++,++++,3

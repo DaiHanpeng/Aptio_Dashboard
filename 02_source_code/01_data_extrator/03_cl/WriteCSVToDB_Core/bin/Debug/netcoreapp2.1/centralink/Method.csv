@@ -1,0 +1,398 @@
+Test.Name,Instrument.Name,Westgard12sSevAcrLot,Westgard12sSevInLot,Westgard13sSevAcrLot,Westgard13sSevInLot,Westgard10xSevAcrLot,Westgard10xSevInLot,Westgard22sSevAcrLot,Westgard22sSevInLot,Westgard41sSevAcrLot,Westgard41sSevInLot,WestgardR4sSevAcrLot,WestgardR4sSevInLot,ApplyWestgardChecks,QCSeverity,Unit.Name,LowDetectionLimit,HighDetectionLimit,EnableTargeting,AutoTargetSeqNo,EnableWorkOrders,LASLstEnWOChangeReag,DownloadDilution,CheckMovingAverage,QCSeverityOnTypeError,QCSeverityOnInvalidRef,ValidateOnTypeError,ValidateOnInvalidRange,NormSeverityLimit,DeltaNormSeverityLimit,QCSeverityLimit,InstSeverityLimit,CounterKeyLabel,WGCheckIfCompForQC,InstrRerunSelection,CountMethod,MovingAverageBatchSize,RequestGroupCode,IncubationTime,AcceptRsltsForUplRqsts,AutoValidateIsol,SendOrderIsolReq,SendOrderManIsol,SendOrderIsolInstr,PatientResultSelector.Name,ControlResultSelector.Name,OnQualityResultProcess.Description,LASTestAvailAlias.Test.Name
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Application: CENTRALINK
+%% Version: 16.0.3
+%% Table: Method
+%% Exported on: 08/10/19 at 19:06:40
+%% Exported by: advia
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+AFP,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+AFP,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+AFP,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+AFP,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+K,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+K,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+K,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+K,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Na,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Na,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+Na,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Na,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Cl,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Cl,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+Cl,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Cl,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+FT4,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+FT4,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+FT4,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+FT4,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+AST,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+AST,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+AST,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+AST,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+fPS,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+fPS,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CA_2,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CA_2,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+ASLn,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,54.11,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ASLn,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+C3,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,.1821,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+C3,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+C4,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,.0641,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+C4,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CRP1,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,3.24,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CRP1,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+IgA,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,.261,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IgA,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+IgG,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,1.3531,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IgG,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+IgG4,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,.0811,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IgG4,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+IgGC,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IgGC,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+IgGU,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,3.385,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IgGU,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+IgM,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,.181,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IgM,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+RFn,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,12.51,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+RFn,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+AlbU,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,0,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+AlbU,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+b2MU,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,.2,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+b2MU,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+a1MU,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,5.781,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+a1MU,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+aTG,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+aTG,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+aTPO,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+aTPO,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+VitD,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+VitD,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+FER,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+FER,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CpS,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CpS,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CA125,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CA125,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CA153,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CA153,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CA199,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CA199,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+FolateBA,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+FolateBA,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+IRI,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+IRI,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+VB12,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+VB12,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+TSH3UL,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+TSH3UL,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+FT3,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+FT3,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CEA,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CEA,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+COR,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+COR,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+TnIUltra,DMS_AdviaCentaur_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+TnIUltra,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+aTG,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+aTPO,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+VitD,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+FER,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CpS,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CA125,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CA153,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CA199,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+FolateBA,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+IRI,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+VB12,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+TSH3UL,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+FT3,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CEA,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+COR,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+TnIUltra,DMS_AdviaCentaur_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+aTG,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+aTPO,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+VitD,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+FER,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CpS,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CA125,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CA153,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CA199,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+FolateBA,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+IRI,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+VB12,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+TSH3UL,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+FT3,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CEA,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+COR,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+TnIUltra,DMS_AdviaCentaur_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,DOSE,DOSE,?,?
+CO2_c,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CO2_c,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CO2_c,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CO2_c,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CA_2,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CA_2,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+UN,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+UN,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+UN,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+UN,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TRIG_2,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TRIG_2,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+TRIG_2,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TRIG_2,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+AMYLAS,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+AMYLAS,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+AMYLAS,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+AMYLAS,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LDLP,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LDLP,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+LDLP,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LDLP,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CHOL_2,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CHOL_2,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CHOL_2,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CHOL_2,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IP,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IP,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+IP,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IP,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+UA,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+UA,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+UA,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+UA,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GGT,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GGT,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+GGT,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GGT,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+DBIL_2,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+DBIL_2,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+DBIL_2,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+DBIL_2,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TBIL_2,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TBIL_2,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+TBIL_2,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TBIL_2,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ECRE_2,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ECRE_2,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+ECRE_2,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ECRE_2,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GLUH_3,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GLUH_3,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+GLUH_3,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GLUH_3,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ALBP,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ALBP,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+ALBP,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ALBP,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ALT,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ALT,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+ALT,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ALT,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TP,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TP,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+TP,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TP,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ALPAMP,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ALPAMP,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+ALPAMP,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ALPAMP,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+HBDH,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+HBDH,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+HBDH,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+HBDH,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CK_MB,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CK_MB,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CK_MB,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CK_MB,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CKNAC,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CKNAC,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CKNAC,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CKNAC,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CHE,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,no,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CHE,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CHE,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,no,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CHE,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+MG,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+MG,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+MG,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+MG,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LPAM,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LPAM,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+LPAM,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LPAM,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+APOB,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+APOB,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+APOB,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+APOB,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+APOA1,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+APOA1,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+APOA1,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+APOA1,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+HDL,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+HDL,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+HDL,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+HDL,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TBAM,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TBAM,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+TBAM,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TBAM,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GALB,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GALB,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+GALB,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GALB,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CYSCM,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CYSCM,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CYSCM,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CYSCM,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ADA,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ADA,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+ADA,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ADA,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+HCYM,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+HCYM,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+HCYM,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+HCYM,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GA,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GA,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+GA,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GA,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+SOD,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+SOD,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+SOD,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+SOD,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GLDH,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GLDH,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+GLDH,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GLDH,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PA,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PA,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+PA,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PA,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LDL,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LDL,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+LDL,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LDL,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CREA,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CREA,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CREA,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CREA,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CMM,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CMM,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+AF,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+AF,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+E2,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+E2,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+FSH,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+FSH,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+HCG,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+HCG,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+GRH,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+GRH,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+LH,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LH,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+PRG,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PRG,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+PRL,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PRL,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+PSA,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PSA,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+RUM,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+RUM,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+TES,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TES,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+TG,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TG,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+TXU,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TXU,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+UE3,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+UE3,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+iPT,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+iPT,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+Hemo,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Hemo,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+Hemo,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Icte,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Icte,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+Icte,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Saline,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Saline,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+Saline,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Lipe,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Lipe,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+Lipe,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Saline,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Lipe,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Icte,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Hemo,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,no,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+I6,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+I6,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+wrCRP,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+wrCRP,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+wrCRP,DMS_ChemistryXPT_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+wrCRP,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PT %,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PT %,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+PT INR,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PT INR,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+PT sec,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PT sec,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+APTT sec,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+APTT sec,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+Fbg C.,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Fbg C.,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+Fbg sec,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Fbg sec,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+TT sec,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TT sec,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+DDi.C,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+DDi.C,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+PT %,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,5,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PT INR,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,5,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PT sec,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,5,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+APTT sec,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,5,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Fbg C.,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,5,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+Fbg sec,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,5,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+TT sec,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,5,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+DDi.C,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,5,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PFDP C.,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PFDP C.,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+AT3 %,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+AT3 %,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+PC %,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PC %,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+LA1 sec,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LA1 sec,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+LA2 sec,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LA2 sec,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+LA R,DMS_CS5100_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LA R,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,no,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+PFDP C.,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+AT3 %,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+PC %,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LA1 sec,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LA2 sec,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+LA R,DMS_CS5100_2,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,no,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IG1,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IG1,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+CCP,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+CCP,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+ALP_2c,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,no,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ALP_2c,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,no,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+ALP_2c,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,no,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IRON_2,DMS_ChemistryXPT_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+IRON_2,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+IRON_2,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+sdLDL,DMS_ChemistryXPT_3,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+sdLDL,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+ACT,DMS_Immulite2000_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,no,no,5,5,no,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+ACT,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,no,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+kapp,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,.28,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+kapp,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+kapU,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+kapU,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+lamb,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+lamb,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?
+lamU,DMS_BNII_1,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,no,?,yes,no,yes,no,5,5,yes,no,6,6,6,6,?,no,Any,?,?,?,?,yes,yes,no,yes,no,?,?,?,?
+lamU,DMS_1_Inst,1,1,1,1,1,1,1,1,1,1,1,1,yes,0,?,?,?,yes,?,yes,no,yes,no,5,5,no,no,?,?,?,?,?,no,Any,?,?,?,?,no,yes,no,yes,no,?,?,?,?

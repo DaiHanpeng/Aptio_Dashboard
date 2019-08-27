@@ -1,0 +1,11 @@
+Name,CodingSystem.Name,TestAvailableAction,TestPanelAvailAction,NonBandTestPriority,InstAvailAction,AliquotDefaultVolume,AliquotVolumeTest.Name,OrderQueueProcessor.Name,SpecificBandPriority.Name,OnSamplePrioUpdate.Description,OnSampleStatusUpdate.Description,OnSampleProcessing.Description,OnSampleInstrQuery.Description
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Application: CENTRALINK
+%% Version: 16.0.3
+%% Table: LASChannel
+%% Exported on: 08/09/19 at 19:54:29
+%% Exported by: batch
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+DMS_1_LAS,DMS_CodingSystem,Transmit Only,no,Last,no,?,?,QueueProcessor,?,?,?,?,?

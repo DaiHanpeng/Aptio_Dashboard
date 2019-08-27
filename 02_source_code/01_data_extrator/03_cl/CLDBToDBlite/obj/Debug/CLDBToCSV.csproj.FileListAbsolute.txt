@@ -1,0 +1,9 @@
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\CLDBToDBlite\bin\Debug\CLDBToDBlite.exe.config
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\CLDBToDBlite\bin\Debug\CLDBToDBlite.exe
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\CLDBToDBlite\bin\Debug\CLDBToDBlite.pdb
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\CLDBToDBlite\obj\Debug\CLDBToDBlite.Form1.resources
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\CLDBToDBlite\obj\Debug\CLDBToDBlite.Properties.Resources.resources
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\CLDBToDBlite\obj\Debug\CLDBToCSV.csproj.GenerateResource.cache
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\CLDBToDBlite\obj\Debug\CLDBToCSV.csproj.CoreCompileInputs.cache
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\CLDBToDBlite\obj\Debug\CLDBToDBlite.exe
+C:\Users\houyu\Source\Repos\DashBoardFromCentralink\CLDBToDBlite\obj\Debug\CLDBToDBlite.pdb
