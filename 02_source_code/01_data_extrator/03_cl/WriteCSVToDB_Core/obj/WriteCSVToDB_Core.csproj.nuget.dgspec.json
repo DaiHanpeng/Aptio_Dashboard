@@ -40,18 +40,6 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.6, )",
-              "autoReferenced": true
-            },
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.0.17, )"
-            }
-          },
           "imports": [
             "net461"
           ],
