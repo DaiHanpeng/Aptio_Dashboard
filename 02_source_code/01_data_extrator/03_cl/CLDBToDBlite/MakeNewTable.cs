@@ -24,7 +24,8 @@ namespace CLDBToDBlite
                 dr["location"] = "?";
                 dt_patient.Rows.Add(dr);
             }
-
+            Ddt["Patient"].Clear();
+            GC.Collect();
 
             return dt_patient;
         }
@@ -46,7 +47,7 @@ namespace CLDBToDBlite
                 dr["create_datetime"] = row["CollectionTime"];
                 dt_sample.Rows.Add(dr);
             }
-
+            
 
             return dt_sample;
         }
@@ -84,7 +85,8 @@ namespace CLDBToDBlite
                 dt_requested_tests.Rows.Add(dr);
                 
             }
-
+            Ddt["Sample"].Clear();
+            GC.Collect();
 
             return dt_requested_tests;
         }
@@ -162,7 +164,10 @@ namespace CLDBToDBlite
                 dt_result.Rows.Add(dr);
                 
             }
-
+            Ddt["Request"].Clear();
+            Ddt["Method"].Clear();
+            Ddt["Result"].Clear();
+            GC.Collect();
 
             return dt_result;
         }
@@ -182,7 +187,8 @@ namespace CLDBToDBlite
                 dt_flag.Rows.Add(dr);
             }
 
-
+            Ddt["ResultFlag"].Clear();
+            GC.Collect();
             return dt_flag;
         }
 
@@ -213,7 +219,9 @@ namespace CLDBToDBlite
                 }
                 
             }
-
+            Ddt["LASChannel"].Clear();
+            Ddt["TestCode"].Clear();
+            GC.Collect();
 
             return dt_test;
         }
