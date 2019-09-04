@@ -8,13 +8,14 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Package Description</description>
     <dependencies>
-      <group targetFramework=".NETCoreApp2.2">
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.NETCore.App" version="2.1.12" exclude="Build,Analyzers" />
         <dependency id="MySql.Data" version="8.0.17" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\WriteCSVToDB_Core\bin\Debug\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.runtimeconfig.json" target="lib\netcoreapp2.2\WriteCSVToDB_Core.runtimeconfig.json" />
-    <file src="C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\WriteCSVToDB_Core\bin\Debug\netcoreapp2.2\win10-x64\WriteCSVToDB_Core.dll" target="lib\netcoreapp2.2\WriteCSVToDB_Core.dll" />
+    <file src="C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\WriteCSVToDB_Core\bin\Debug\netcoreapp2.1\win10-x64\WriteCSVToDB_Core.runtimeconfig.json" target="lib\netcoreapp2.1\WriteCSVToDB_Core.runtimeconfig.json" />
+    <file src="C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\WriteCSVToDB_Core\bin\Debug\netcoreapp2.1\win10-x64\WriteCSVToDB_Core.dll" target="lib\netcoreapp2.1\WriteCSVToDB_Core.dll" />
   </files>
 </package>

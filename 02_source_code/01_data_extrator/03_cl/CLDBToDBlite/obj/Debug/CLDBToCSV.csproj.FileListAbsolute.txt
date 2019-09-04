@@ -10,7 +10,6 @@ C:\Users\houyu\Source\Repos\DashBoardFromCentralink\CLDBToDBlite\obj\Debug\CLDBT
 C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\CLDBToDBlite\bin\Debug\CLDBToCSV.exe.config
 C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\CLDBToDBlite\bin\Debug\CLDBToCSV.exe
 C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\CLDBToDBlite\bin\Debug\CLDBToCSV.pdb
-C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\CLDBToDBlite\obj\Debug\CLDBToCSV.csprojAssemblyReference.cache
 C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\CLDBToDBlite\obj\Debug\CLDBToDBlite.Form1.resources
 C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\CLDBToDBlite\obj\Debug\CLDBToDBlite.Properties.Resources.resources
 C:\Users\houyu\Source\Repos\DaiHanpeng\Aptio_Dashboard\02_source_code\01_data_extrator\03_cl\CLDBToDBlite\obj\Debug\CLDBToCSV.csproj.GenerateResource.cache
