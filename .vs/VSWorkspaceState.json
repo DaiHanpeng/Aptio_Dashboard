@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\01_docs",
+    "\\01_docs\\00_requirements",
+    "\\01_docs\\01_design",
+    "\\01_docs\\02_meetings",
+    "\\02_source_code",
+    "\\02_source_code\\01_data_extrator",
+    "\\02_source_code\\01_data_extrator\\03_cl",
+    "\\02_source_code\\02_data_processing"
   ],
+  "SelectedNode": "\\02_source_code\\01_data_extrator\\03_cl",
   "PreviewInSolutionExplorer": false
 }
